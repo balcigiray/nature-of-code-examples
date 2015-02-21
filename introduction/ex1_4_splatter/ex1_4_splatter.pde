@@ -6,13 +6,7 @@ void setup() {
 }
 
 void draw() {
- // background(230,0.5);
-  
+ if(mousePressed){ 
     s = new Splatter(mouseX, mouseY); //create a splatter at mouse position
-
-
-}
-
-void mousePressed(){
-
+ }
 }
